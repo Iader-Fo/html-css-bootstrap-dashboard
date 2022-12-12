@@ -1,0 +1,58 @@
+/* GENERALI */
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.flex{
+    display: flex;
+}
+
+
+/* HEADER */
+
+.container_header{
+    width: 100vw;
+    height: 100px;
+    background-color: #34cc31;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 30;
+}
+
+/* MAIN */
+
+.container_main {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-color: aqua;
+    margin-top: 100px;
+}
+
+/* SIDEBAR */
+
+.container_sidebar {
+    width: 150px;
+    height: 100%;
+    min-height: 500px;
+    background-color: #871183;
+}
+
+/* PRINCIPAL */
+
+.container_principal {
+    width: calc(100% - 150px);
+    height: 100%;
+    background-color: #b6c542;
+    overflow-y: scroll;
+}
+
+/* TITLE */
+
+.container_title {
+    background-color: #9d203b;
+    height: 150px;
+}
