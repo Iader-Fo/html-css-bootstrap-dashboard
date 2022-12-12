@@ -6,6 +6,10 @@
     box-sizing: border-box;
 } */
 
+.bordered{
+    border: 1px dashed black;
+}
+
 .flex{
     display: flex;
 }
@@ -61,5 +65,4 @@ li{
 
 .container_title {
     background-color: #9d203b;
-    height: 150px;
 }
