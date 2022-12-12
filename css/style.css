@@ -26,8 +26,8 @@ li{
 
 .container_header{
     width: 100vw;
-    height: 100px;
-    background-color: #34cc31;
+    height: 60px;
+    /* background-color: #34cc31; */
     position: fixed;
     top: 0;
     left: 0;
@@ -38,9 +38,9 @@ li{
 
 .container_main {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 60px);
     background-color: aqua;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 /* SIDEBAR */
