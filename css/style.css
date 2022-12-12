@@ -34,6 +34,12 @@ li{
     z-index: 30;
 }
 
+.container_header .bg_input{
+    background-color: #e9ecef;
+}
+
+
+
 /* MAIN */
 
 .container_main {
