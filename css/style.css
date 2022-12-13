@@ -9,10 +9,6 @@
 .bordered{
     border: 1px dashed black;
 }
-/* 
-.flex{
-    display: flex;
-} */
 
 a{
     text-decoration: none;
@@ -55,7 +51,7 @@ li{
     width: 150px;
     height: 100%;
     min-height: 500px;
-    background-image: url("../img/sidebar-bg.png");
+    background-color: #051e34;
 }
 
 /* PRINCIPAL */
@@ -70,7 +66,12 @@ li{
 /* TITLE */
 
 .container_title {
-    background-color: #9d203b;
+    background-color: #1b72e8;
+    font-size: 0.9em;
+}
+
+.my_badge{
+    background-color: #165bba;
 }
 
 /* PROSSIME CLASSI */
@@ -78,3 +79,18 @@ li{
 .font_size{
     font-size: 0.9em;
 }
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 992px){
+
+    .container_sidebar {
+        width: 70px;
+    }
+    
+    .container_principal {
+        width: calc(100% - 70px);
+    }
+    
+}
+    
