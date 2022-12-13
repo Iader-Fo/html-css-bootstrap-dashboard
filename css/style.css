@@ -116,6 +116,7 @@ li{
 
     .logo_small{
         display: block;
+        margin-left: 7px;
     }
     
     .my_d_none{
@@ -128,11 +129,13 @@ li{
     
 }
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 768px){
 
     .nuovo_studente{
         text-align:;
     }
     
+    .my_date, .my_roi{
+        display: none;
+    }
 }
-    
