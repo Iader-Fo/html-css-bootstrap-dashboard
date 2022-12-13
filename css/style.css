@@ -34,6 +34,11 @@ li{
     background-color: #e9ecef;
 }
 
+.logo_small{
+    display: none;
+    width: 30px;
+}
+
 
 
 /* MAIN */
@@ -74,6 +79,14 @@ li{
     background-color: #165bba;
 }
 
+.my_badge_block{
+    display: none;
+}
+
+.my_badge_inline{
+    display: inline-block;
+}
+
 /* PROSSIME CLASSI */
 
 .font_size{
@@ -95,6 +108,22 @@ li{
     
     .container_principal {
         width: calc(100% - 70px);
+    }
+
+    .logo_big{
+        display: none;
+    }
+
+    .logo_small{
+        display: block;
+    }
+    
+    .my_d_none{
+        display: none;
+    }
+
+    .my_badge_block{
+        display: inline-block;
     }
     
 }
