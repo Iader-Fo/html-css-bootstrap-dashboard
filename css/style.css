@@ -59,7 +59,7 @@ li{
 .container_principal {
     width: calc(100% - 150px);
     height: 100%;
-    background-color: #b6c542;
+    background-color: #f8f9fa;
     overflow: auto;
 }
 
@@ -80,6 +80,11 @@ li{
     font-size: 0.9em;
 }
 
+/* UTENTI ATTIVI */
+
+.my_link{
+    color: #1b72e8;
+}
 /* MEDIA QUERY */
 
 @media screen and (max-width: 992px){
